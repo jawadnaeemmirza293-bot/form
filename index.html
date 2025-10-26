@@ -1,89 +1,76 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>HTML Form Challenge</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Simple CV - Jawad Naeem Mirza</title>
 </head>
 <body>
-    <h2><b>User Registration Form</b></h2>
-    <form action="#" method="post">
-        <!-- Text Inputs -->
-        <label for="fname">First Name:</label>
-        <input type="text" id="fname" name="fname" required><br><br>
 
-        <label for="lname">Last Name:</label>
-        <input type="text" id="lname" name="lname" required><br><br>
+  <center>
+    <h1><u>Jawad Naeem Mirza</u></h1>
+    <img src="your-photo.jpg" alt="Your Photo" width="150" height="150">
+  </center>
+  <hr>
 
-        <label for="password">Password:</label>
-        <input type="password" id="password" name="password" required><br><br>
+  <h2><u>Personal Information</u></h2>
+  <hr>
+  <p>Name: Jawad Naeem Mirza</p>
+  <p>Email: jawadnaeem@example.com</p>
+  <p>Phone: +92-3182844266</p>
+  <p>Address: Lahore, Pakistan</p>
 
-        <!-- Textarea -->
-        <label for="bio">Bio:</label><br>
-        <textarea id="bio" name="bio" rows="3" cols="40"></textarea><br><br>
+  <h2><u>Career Objective</u></h2>
+  <hr>
+  <p>Brief statement about career goals and what you want to achieve.</p>
 
-        <!-- Radio Buttons -->
-        <fieldset>
-            <legend>Gender:</legend>
-            <input type="radio" id="male" name="gender" value="male">
-            <label for="male">Male</label><br>
-            <input type="radio" id="female" name="gender" value="female">
-            <label for="female">Female</label><br>
-            <input type="radio" id="other" name="gender" value="other">
-            <label for="other">Other</label>
-        </fieldset><br>
+  <h2><u>Education</u></h2>
+  <hr>
+  <ul>
+    <li>BS Computer Science — University of Lahore (2021–2025)</li>
+    <li>Intermediate in Pre-Engineering — Punjab College (2019–2021)</li>
+  </ul>
 
-        <!-- Checkboxes -->
-        <fieldset>
-            <legend>Interests:</legend>
-            <input type="checkbox" id="music" name="interest" value="music">
-            <label for="music">Music</label><br>
-            <input type="checkbox" id="sports" name="interest" value="sports">
-            <label for="sports">Sports</label><br>
-            <input type="checkbox" id="reading" name="interest" value="reading">
-            <label for="reading">Reading</label>
-        </fieldset><br>
+  <h2><u>Skills</u></h2>
+  <hr>
+  <ul>
+    <li>HTML</li>
+    <li>CSS (basic)</li>
+    <li>JavaScript (basic)</li>
+    <li>C++</li>
+    <li>MS Office</li>
+  </ul>
 
-        <!-- Dropdown -->
-        <label for="country">Country:</label>
-        <select id="country" name="country">
-            <option>United States</option>
-            <option>Canada</option>
-            <option>Australia</option>
-            <option>Other</option>
-        </select><br><br>
+  <h2><u>Experience / Internships</u></h2>
+  <hr>
+  <p>Intern — ABC Software House (June–August 2024)</p>
+  <ul>
+    <li>Worked on simple web pages and helped with testing.</li>
+  </ul>
 
-        <!-- Multiple Select -->
-        <label for="colors">Preferred Colors:</label>
-        <select id="colors" name="colors" multiple size="4">
-            <option>Red</option>
-            <option>Blue</option>
-            <option>Green</option>
-            <option>Yellow</option>
-        </select><br><br>
+  <h2><u>Projects (optional)</u></h2>
+  <hr>
+  <ul>
+    <li>Simple portfolio website (link or short description)</li>
+  </ul>
 
-        <!-- File Input -->
-        <label for="profile">Profile Picture:</label>
-        <input type="file" id="profile" name="profile" accept="image/*"><br><br>
+  <h2><u>Achievements / Awards (optional)</u></h2>
+  <hr>
+  <ul>
+    <li>First prize in programming contest — 2023</li>
+  </ul>
 
-        <!-- Date Input -->
-        <label for="birthdate">Birthdate:</label>
-        <input type="date" id="birthdate" name="birthdate"><br><br>
+  <h2><u>Hobbies & Interests</u></h2>
+  <hr>
+  <ul>
+    <li>Coding</li>
+    <li>Designing</li>
+    <li>Reading tech blogs</li>
+  </ul>
 
-        <!-- Email Input -->
-        <label for="email">Email:</label>
-        <input type="email" id="email" name="email" required><br><br>
+  <h2><u>References</u></h2>
+  <hr>
+  <p>Available upon request.</p>
 
-        <!-- URL Input -->
-        <label for="website">Website:</label>
-        <input type="url" id="website" name="website"><br><br>
-
-        <!-- Search Input -->
-        <label for="search">Search:</label>
-        <input type="search" id="search" name="search"><br><br>
-
-        <!-- Submit Button -->
-        <input type="submit" value="Submit">
-    </form>
 </body>
 </html>
