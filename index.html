@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Form Challenge</title>
+</head>
+<body>
+    <h2><b>User Registration Form</b></h2>
+    <form action="#" method="post">
+        <!-- Text Inputs -->
+        <label for="fname">First Name:</label>
+        <input type="text" id="fname" name="fname" required><br><br>
+
+        <label for="lname">Last Name:</label>
+        <input type="text" id="lname" name="lname" required><br><br>
+
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" required><br><br>
+
+        <!-- Textarea -->
+        <label for="bio">Bio:</label><br>
+        <textarea id="bio" name="bio" rows="3" cols="40"></textarea><br><br>
+
+        <!-- Radio Buttons -->
+        <fieldset>
+            <legend>Gender:</legend>
+            <input type="radio" id="male" name="gender" value="male">
+            <label for="male">Male</label><br>
+            <input type="radio" id="female" name="gender" value="female">
+            <label for="female">Female</label><br>
+            <input type="radio" id="other" name="gender" value="other">
+            <label for="other">Other</label>
+        </fieldset><br>
+
+        <!-- Checkboxes -->
+        <fieldset>
+            <legend>Interests:</legend>
+            <input type="checkbox" id="music" name="interest" value="music">
+            <label for="music">Music</label><br>
+            <input type="checkbox" id="sports" name="interest" value="sports">
+            <label for="sports">Sports</label><br>
+            <input type="checkbox" id="reading" name="interest" value="reading">
+            <label for="reading">Reading</label>
+        </fieldset><br>
+
+        <!-- Dropdown -->
+        <label for="country">Country:</label>
+        <select id="country" name="country">
+            <option>United States</option>
+            <option>Canada</option>
+            <option>Australia</option>
+            <option>Other</option>
+        </select><br><br>
+
+        <!-- Multiple Select -->
+        <label for="colors">Preferred Colors:</label>
+        <select id="colors" name="colors" multiple size="4">
+            <option>Red</option>
+            <option>Blue</option>
+            <option>Green</option>
+            <option>Yellow</option>
+        </select><br><br>
+
+        <!-- File Input -->
+        <label for="profile">Profile Picture:</label>
+        <input type="file" id="profile" name="profile" accept="image/*"><br><br>
+
+        <!-- Date Input -->
+        <label for="birthdate">Birthdate:</label>
+        <input type="date" id="birthdate" name="birthdate"><br><br>
+
+        <!-- Email Input -->
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required><br><br>
+
+        <!-- URL Input -->
+        <label for="website">Website:</label>
+        <input type="url" id="website" name="website"><br><br>
+
+        <!-- Search Input -->
+        <label for="search">Search:</label>
+        <input type="search" id="search" name="search"><br><br>
+
+        <!-- Submit Button -->
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>
